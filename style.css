@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #29A0B1;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border: 0.1rem solid #DDFFE7;
+    border-radius: 10rem;
+    margin: 1rem;
+    color: #EF7C8E;
+    background-color: #167D7F;
+}
+
+main {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: 0.1rem solid #DDFFE7;
+    border-radius: 10rem;
+    margin: 1rem;
+    color: #2F5233;
+    background-color: #167D7F;
+    flex-wrap: wrap;
+    height: 100vh;
+    font-weight: 800;
+    text-shadow: 0.125rem 0.125rem 0.013rem #B1D8B7;
+    font-size: 2rem;
+    height: auto;
+    
+}
+
+.fieldNo {
+    width: 19rem;
+    height: 2.5rem;
+    padding: 0.6rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    border: 0.1rem solid #DDFFE7;
+    border-radius: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 0.1rem solid #DDFFE7;
+    border-radius: 10rem;
+    margin: 1rem;
+    background-color: #B1D8B7;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.course {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 0.1rem solid #32CD30;
+    border-radius: 10rem;
+    margin: 1rem;
+    background-color: #1A4314;
+    color: #B2D2A4;
+}
+
+.label {
+    font-size: 2rem;
+    color: #F7E2C7;
+    margin-bottom: 2rem;
+}
+
+.input {
+    width: 19rem;
+    height: 2.5rem;
+    padding: 0.6rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    border: 0.1rem solid #DDFFE7;
+    border-radius: 2rem;
+    background-color: #000;
+    color: #fff;
+    margin-left: 2rem;   
+}
+
+.btn-1 {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-1:active {
+    box-shadow: 2px 2px 5px #fc894d;
+  }
+
+.result {
+    color: #000
+}
